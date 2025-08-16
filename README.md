@@ -32,4 +32,7 @@ O projeto foi desenvolvido utilizando tecnologias web padrão:
 -   **CSS**: Estilização e design.
 -   **JavaScript**: Lógica e interatividade.
 
-## 📁 Estrutura do Projeto
+## Projeto em ação 
+
+https://adrianafirmino.github.io/amigo-secreto/
+
