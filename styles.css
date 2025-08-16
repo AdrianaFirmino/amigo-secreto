@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: blue;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    margin-bottom: 10px;
+}
+
+p {
+    color:black;
+    margin-bottom: 20px;
+}
+
+.input-area {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#nameInput {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 70%;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#addButton {
+    background-color: #28a745;
+}
+
+#addButton:hover {
+    background-color: #218838;
+}
+
+#drawButton {
+    background-color: #007bff;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#drawButton:hover:not(:disabled) {
+    background-color: #0056b3;
+}
+
+#drawButton:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.list-container {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: black;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+#nameList {
+    list-style-type: none;
+    padding: 0;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+#nameList li {
+    background-color: #e9ecef;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
+
+.result-area {
+    margin-top: 20px;
+}
+
+#resultName {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    padding: 15px;
+    background-color: #e2f0e3;
+    border-radius: 5px;
+}
